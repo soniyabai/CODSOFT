@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Boba Bliss</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Boba Bliss</div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <div class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h1>Bubble Tea Paradise</h1>
+    <p>Explore delicious and colorful bubble tea flavors made just for you.</p>
+    <button class="order-btn">Order Now</button>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu">
+    <h2>Our Flavors</h2>
+    <div class="flavors">
+      <div class="flavor-card">
+        <img src="images/strawberry.jpg" alt="Strawberry Bliss" />
+        <h4>Strawberry Bliss</h4>
+        <p>Sweet and fruity with strawberry pearls!</p>
+      </div>
+      <div class="flavor-card">
+        <img src="images/matcha-boba-tea-5.jpg" alt="Matcha Magic" />
+        <h4>Matcha Magic</h4>
+        <p>Earthy and energizing matcha flavor.</p>
+      </div>
+      <div class="flavor-card">
+        <img src="images/brown-sugar-milk-tea-bubbles-101.webp" alt="Brown Sugar Love" />
+        <h4>Brown Sugar Love</h4>
+        <p>Rich brown sugar with chewy tapioca pearls.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+        Welcome to Boba Bliss, where every sip is a smile! 😊
+We’re a bubble tea paradise dedicated to serving happiness in a cup. From our vibrant, handcrafted drinks to our chill and cozy vibes, Boba Bliss is more than just a tea shop — it's a lifestyle.🌟 Why Choose Boba Bliss?
+Fresh Ingredients Always – We use the freshest fruits, organic teas, and high-quality pearls to make sure every drink is a delight.
+Creative Flavors – Classic milk tea, fruity blends, creamy matcha, brown sugar bliss — there's something for every mood.
+Made Just for You – Customize your sweetness, ice level, and toppings. Want popping boba? Extra pearls? You got it!
+Instagrammable Vibes – Our drinks aren’t just tasty — they’re ✨aesthetic✨. Snap a pic, tag us, and spread the boba love.
+Friendly Faces – Our team loves bubble tea as much as you do. You’ll always be greeted with a smile!
+💖 Our Story
+Boba Bliss started as a small passion project by bubble tea lovers who dreamed of bringing unique, flavorful experiences to our community. What began with a few friends and a blender turned into a full-blown bubble tea sensation — and we’re still growing with you!
+Whether you’re catching up with friends, studying for exams, or just craving something sweet, Boba Bliss is your go-to destination.
+So come hang out, sip slow, and taste the bliss 💫🧋
+ At Boba Bliss, we blend passion and flavor to create the perfect bubble tea experience. Whether you're craving something sweet, fruity, or creamy — we’ve got a flavor for you!
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: hello@bobabliss.com</p>
+    <p>Instagram | Facebook</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Boba Bliss | Follow us on <a href="#">Instagram</a> & <a href="#">Facebook</a>
+  </footer>
+
+  <!-- Script -->
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById('navLinks');
+      nav.classList.toggle('active');
+    }
+  </script>
+
+</body>
+</html>
