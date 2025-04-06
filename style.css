@@ -7,11 +7,11 @@
   }
   
   body {
-    background-color: #fff;
-    color: #333;
-  }
-  
-  /* Navbar */
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(167, 77, 77);
+    }
+
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -27,7 +27,7 @@
   .logo {
     font-size: 24px;
     font-weight: bold;
-    color: #e91e63;
+    color: rgb(158, 80, 80);
   }
   
   .nav-links {
@@ -46,21 +46,29 @@
     font-size: 24px;
     cursor: pointer;
   }
-  
-  /* Sections */
+
   section {
     padding: 80px 20px;
     text-align: center;
   }
+
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
   
   #home {
-    background: linear-gradient(to bottom, #ffc0cb, #fff);
+    background: linear-gradient(to bottom, #f5e4d2, #fff);
+    padding: 60px 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
   
   .order-btn {
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #e91e63;
+    background-color: brown;
     color: white;
     border: none;
     border-radius: 20px;
@@ -68,12 +76,15 @@
     cursor: pointer;
   }
   
-  /* Flavors */
+  button:hover, .btn:hover {
+    background-color:brown;
+  }
+  
   .flavors {
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     margin-top: 20px;
   }
   
@@ -90,16 +101,15 @@
     border-radius: 10px;
   }
   
-  /* Footer */
   footer {
     margin-top: 40px;
     padding: 20px;
     text-align: center;
     font-size: 14px;
     color: rgb(155, 155, 153);
+    background-color: beige;
   }
   
-  /* Responsive */
   @media (max-width: 768px) {
     .nav-links {
       flex-direction: column;
@@ -121,4 +131,25 @@
       display: block;
     }
   }
+  .card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  nav a {
+    color: #5c3b2e;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  
+  nav a:hover {
+    color: #a0522d;
+  }
+  
   
